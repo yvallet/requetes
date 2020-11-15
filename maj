@@ -1,7 +1,5 @@
 rm -f .gitignore
 git rm -r --cached .
-git lfs track '*.mp4'
-git lfs track '*.wnk'
 git add .
 git commit -m "version 14.11"
 git push -u origin main
